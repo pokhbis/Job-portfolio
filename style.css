@@ -1,0 +1,172 @@
+.header-link{
+    text-decoration: none;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-top: 2px;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-options:hover{
+    color:rgb(20, 19, 19);
+}
+.nav-list{
+    list-style-type: none;
+}
+.dev-name{
+margin-top: 5px;
+font-size: 22px;
+font-weight: 600;
+}
+.dev-surname{
+    color: goldenrod;
+}
+
+  .banner{
+    width: 100%; 
+    height: 600px;
+    background-image: url(img/banner\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  .section-intro{
+    text-align:center;
+    color:whitesmoke;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 25%;
+  }
+  .footer-container{
+    background-color: rgb(220, 240, 253);
+}
+
+
+.footer-social-media{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer-input{
+border-radius: 5px;
+}
+.footer-end{
+    text-align: center;
+    background-color: rgb(74, 97, 110);
+    color: blanchedalmond;
+}
+.profile-link{
+    text-decoration: none;
+    color: rgb(91, 119, 212);
+    cursor: pointer;
+}
+
+.contact-btn{
+    color:whitesmoke;
+    background-color: rgb(30, 57, 210);
+    border-radius: 5px;
+}
+.about-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+.about-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+color: rgba(76, 76, 230, 0.863);
+}
+.about-text{
+    margin-top: 50px;
+    text-align: justify;
+}
+.skill-title{
+    text-align: center;
+}
+.icon-img{
+    width: 20px;
+    height: 20px;
+}
+
+.skill-icon{
+    width: 25px;
+    height: 25px;
+}
+.skill-field{
+    text-align: center;
+    transition: 0.5s;
+}
+
+.skill-field:hover{
+box-shadow: 2px 5px 7px gray;
+}
+.skill-bg{
+    width: 100%; 
+    height: 170px;
+    background-image: url(img/Meaningful-Connectivity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.p-img{
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+  
+}
+.p-img-middle{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgba(76, 76, 230, 0.863);
+    text-align: center;
+   cursor: pointer;
+    border-right: 2px solid gray;
+}
+.service-img{
+    width: 100px;
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.text-start{
+    text-align: justify;
+}
+.project-img{
+    width: 150px;
+    height: 250px;
+}
+.project-btn{
+    color:whitesmoke;
+    border-radius: 5px;
+    text-align: center;  
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-decoration-style: none;
+    font-weight: 600;
+}
+.card{
+    padding-bottom: 5px;
+    width: 550px;
+    height: 450px;
+}
