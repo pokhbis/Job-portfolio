@@ -18,39 +18,41 @@
 
 <body>
     <header class="">
-        <section class="container  ">
-            <div class="row my-2">
-                <div class="d-flex justify-content-end  ">
-                    <div class="col-lg-3 col-md-4 d-flex ">
-                        <div>
-                            <img class="logo"
-                                src="img/png-transparent-web-development-web-design-software-development-web-developer-web-design-blue-angle-web-design-thumbnail-removebg-preview.png"
-                                alt="">
+        <!-- Header -->
+        <section>
+            <div class="container">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <div class="col-lg-3 col-md-4 d-flex ">
+                            <div>
+                                <img class="logo"
+                                    src="img/png-transparent-web-development-web-design-software-development-web-developer-web-design-blue-angle-web-design-thumbnail-removebg-preview.png"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="dev-name">Prokash <span class="dev-surname">Bishwash</span></p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="dev-name">Prokash <span class="dev-surname">Bishwash</span></p>
+                        <div class="col-lg-9 col-md-8">
+                            <nav class="nav justify-content-end ">
+                                <ul class="nav-list d-flex  ">
+
+
+                                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                                    <li class="nav-item"><a href="/RevisedResume.pdf" class="nav-link"
+                                            download="RevisedResume">Resume</a>
+                                    </li>
+                                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+
+                                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+
+                                </ul>
+                            </nav>
                         </div>
-
                     </div>
-                    <div class="col-lg-9 col-md-8">
-                        <nav class="nav justify-content-end ">
-                            <ul class="nav-list d-flex  ">
-                                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                                <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
-                                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                                <li class="nav-item"><a href="/RevisedResume.pdf" class="nav-link"
-                                        download="RevisedResume">Resume</a>
-                                </li>
-
-                                <!-- <li class="nav-item"><a href="/RevisedResume.pdf" class="nav-link">Resume</a></li> -->
-                                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                </nav>
             </div>
         </section>
     </header>
@@ -61,9 +63,13 @@
 
 
         <div class="section-intro">
-            <h1><strong>Prokash Bishwash</strong></h1><br>
-            <h5>I am a Web Developer</h5>
-            <p>As a young self-motivated tech enthusiastic, with comprehensive knowledge of web development and <br>
+            <div class="banner-title">
+                <h1><strong>Prokash Bishwash</strong></h1><br>
+                <h5>I am a Web Developer</h5>
+            </div>
+
+            <p class="banner-text">As a young self-motivated tech enthusiastic, with comprehensive knowledge of web
+                development and <br>
                 organizational skills, I am excited to work with your website developement project.</p>
         </div>
         <!-- <p class="section-title-intro"> Junior Web Developer</p> -->
@@ -82,10 +88,13 @@
                 </div>
                 <div class="col-lg-6 pt-4 about-text">
                     <h2 class="about-title"> Programer Prokash</h2>
-                    <p style="width:600px">A self-motivated junior web developer with comprehensive knowledge of web
-                        development and
+                    <p style="width:600px">A self-motivated Engineer with comprehensive knowledge of website
+                        development along with
                         organizational skills, which are imperative when working with subordinates or professionals to
                         successfully compete for projects from the concept to implementation and testing.</p>
+                    <p>Having a broad understanding of website development related technologies, I am looking for
+                        suitable
+                        job.</p>
                 </div>
             </div>
         </div>
@@ -206,14 +215,21 @@
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Bengal-Pottery</h5>
-                            <p class="card-text"> This is a Niche website for pottery items retailer developed through
-                                MERN stack.Front-end and Back-end are hosted in Firebase and Heroku respectively.
-                                Facilitation of admin as well as buyer’s dashboard and also responsive.</p>
+                            <p class="card-text"> Bengal Pottery is Niche website for pottery items retailer developed
+                                through MERN stack.. People can
+                                buy their desired product from this website. User have to register and log in to place
+                                order. Dashboard has been provided for both clients as well as admin. User can see
+                                his/her ordered products in the dashboard. Admin can add and monitor activities of user
+                                from admin dashboard.
+                            </p>
                         </div>
 
                         <!-- <button class="btn btn-success" onclick="https://bengal-pottery.web.app/">Live Preview</button> -->
-                        <button class="project-btn"> <a href="https://bengal-pottery.web.app/">Live Preview</a>
+                        <button class="project-btn"> <a href="details.html" style="text-decoration: none;">View
+                                Details</a>
                         </button>
+                        <!-- <button class="project-btn"> <a href="https://bengal-pottery.web.app/">View Details</a>
+                        </button> -->
 
                         <!-- <div class="project-btn">
                             <button>Live Preview</button>
@@ -227,13 +243,16 @@
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ghurbo-Tourism</h5>
-                            <p class="card-text"> Tourism services and solutions related website, using MERN stack.
-                                Implementation of user Registration and Google log-in system. Responsive website where
-                                user can book travel related services. </p>
+                            <p class="card-text"> GHURBO is tourism services providing website. Here user can book for a
+                                tourist destination. Tourist spot,costing etc related information are also provided
+                                here. User can read the review of other people in the review section. If a user book
+                                multiple destinations, he/she can see his/her all bookings. Admin can add new
+                                destinations. User have to register and log-in into the website for booking. </p>
                         </div>
 
                         <!-- <button class="btn btn-success" onclick="https://bengal-pottery.web.app/">Live Preview</button> -->
-                        <button class="project-btn"> <a href="https://ghurbo-client.web.app/">Live Preview</a>
+                        <button class="project-btn"> <a href="details2.html" style="text-decoration: none;">View
+                                Details</a>
                         </button>
 
                         <!-- <div class="project-btn">
@@ -248,13 +267,16 @@
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Well.Spring Healthcare</h5>
-                            <p class="card-text"> Firebase hosted website, where user can book medicare related
-                                services. Email-Password based log-in with services information provided through blog.
-                                Fully responsive in desktop and mobile platform with private routing. </p>
+                            <p class="card-text"> Well.Spring is a health care services providing institute related
+                                website. It facilitates services related to mental, psychological as well as general
+                                health. User can enroll to receive their desired services through this website. Clients
+                                have to register to get the services. General health related instructions are also
+                                provided through blog. </p>
                         </div>
 
                         <!-- <button class="btn btn-success" onclick="https://bengal-pottery.web.app/">Live Preview</button> -->
-                        <button class="project-btn"> <a href="https://assignment-10-36550.web.app/">Live Preview</a>
+                        <button class="project-btn"> <a href="details3.html" style="text-decoration: none;">View
+                                Details</a>
                         </button>
 
                         <!-- <div class="project-btn">
@@ -272,12 +294,14 @@
                             <p class="card-text"> This is a survival training facility providing website. from here
                                 people can learn the life saving tricks and tips in case of adverse situations. Thus
                                 help people to stay fit and healthy. It is fully responsive in desktop and mobile
-                                platform.</p>
+                                platform.The courses are renowned for delivering both physical and mental challenges and
+                                rigorous instruction in bushcraft, survival skills, and traditional and primitive living
+                                skills.</p>
                         </div>
 
                         <!-- <button class="btn btn-success" onclick="https://bengal-pottery.web.app/">Live Preview</button> -->
-                        <button class="project-btn"> <a href="https://wizardly-torvalds-6a444e.netlify.app/">Live
-                                Preview</a>
+                        <button class="project-btn"> <a href="details4.html" style="text-decoration: none;">View
+                                Details</a>
                         </button>
 
                         <!-- <div class="project-btn">
@@ -340,7 +364,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-end pb-3"> @ Developed By Prokash. All Rights Resurved.</div>
+            <div class="footer-end pb-3"> @ Developed By Prokash. All Rights Reserved.</div>
             </div>
         </section>
 
